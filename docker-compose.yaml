@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  sharathwebapp:
+    image: sharathweb:appv1
+    build: .
+    container_name: sharathwebc1
+    ports:
+      - 2048:80
+    restart: always
